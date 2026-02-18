@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="CSOrbit.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="EduHub.Global" Language="C#" %>

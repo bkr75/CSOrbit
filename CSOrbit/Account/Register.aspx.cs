@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace CSOrbit.Account
+namespace EduHub.Account
 {
     public partial class Register : System.Web.UI.Page
     {
@@ -18,7 +18,7 @@ namespace CSOrbit.Account
         {
             if (!Page.IsValid) return;
 
-            string cs = WebConfigurationManager.ConnectionStrings["CSOrbitDBConnection"].ConnectionString;
+            string cs = WebConfigurationManager.ConnectionStrings["EduHubDBConnection"].ConnectionString;
 
             using (SqlConnection con = new SqlConnection(cs))
             {

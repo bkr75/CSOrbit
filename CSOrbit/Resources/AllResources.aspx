@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="All Resources" Language="C#" MasterPageFile="~/Site.Master"
-    AutoEventWireup="true" CodeBehind="AllResources.aspx.cs" Inherits="CSOrbit.Resources.AllResources" %>
+    AutoEventWireup="true" CodeBehind="AllResources.aspx.cs" Inherits="EduHub.Resources.AllResources" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main id="MainContentSection" role="main">

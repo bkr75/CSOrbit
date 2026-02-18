@@ -12,13 +12,13 @@ using System.Text;
 
 
 
-namespace CSOrbit.Account
+namespace EduHub.Account
 {
     public partial class Login : System.Web.UI.Page
     {
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            string cs = WebConfigurationManager.ConnectionStrings["CSOrbitDBConnection"].ConnectionString;
+            string cs = WebConfigurationManager.ConnectionStrings["EduHubDBConnection"].ConnectionString;
 
             try
             {

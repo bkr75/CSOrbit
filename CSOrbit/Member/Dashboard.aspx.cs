@@ -9,11 +9,11 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 
-namespace CSOrbit.Member
+namespace EduHub.Member
 {
     public partial class Dashboard : System.Web.UI.Page
     {
-        string cs = WebConfigurationManager.ConnectionStrings["CSOrbitDBConnection"].ConnectionString;
+        string cs = WebConfigurationManager.ConnectionStrings["EduHubDBConnection"].ConnectionString;
 
         protected void Page_Load(object sender, EventArgs e)
         {

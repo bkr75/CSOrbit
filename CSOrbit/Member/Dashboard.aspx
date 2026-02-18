@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="Member Dashboard" Language="C#" MasterPageFile="~/Site.Master"
-    AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="CSOrbit.Member.Dashboard" %>
+    AutoEventWireup="true" CodeBehind="Dashboard.aspx.cs" Inherits="EduHub.Member.Dashboard" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main id="MainContentSection" role="main">

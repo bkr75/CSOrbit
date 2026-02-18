@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSOrbit
+namespace EduHub
 {
 
 

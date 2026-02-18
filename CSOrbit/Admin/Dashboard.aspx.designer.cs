@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CSOrbit.Admin
+namespace EduHub.Admin
 {
 
 

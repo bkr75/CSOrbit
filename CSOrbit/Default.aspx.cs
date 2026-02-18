@@ -11,18 +11,8 @@ namespace CSOrbit
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                if (Session["FirstName"] != null)
-                {
-                    lblWelcome.Text = "Welcome back, " + Session["FirstName"].ToString();
-                }
-                else
-                {
-                    lblWelcome.Text = "Welcome to";
-                }
-            }
+            // صفحة Default الجديدة ما تحتاج أي كود هنا
+            // كل شيء موجود في ملف .aspx نفسه
         }
-
     }
 }

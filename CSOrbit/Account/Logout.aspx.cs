@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CSOrbit.Account
+namespace EduHub.Account
 {
     public partial class Logout : System.Web.UI.Page
     {
